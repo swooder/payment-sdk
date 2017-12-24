@@ -1,0 +1,19 @@
+{
+    "name": "woodfish/payment-sdk",
+    "description": "payment sdk for client",
+    "authors": [
+        {
+            "name": "shao jie",
+            "email": "shaojie519@gmail.com"
+        }
+    ],
+    "require": {
+        "mashape/unirest-php": "^3.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Woodfish\\Component\\Payment\\Sdk\\": "src"
+        }
+    }
+}
