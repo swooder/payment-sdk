@@ -66,7 +66,7 @@ class PayClient
 
 
 
-    public function getSignData(BaseRequest $request)
+    public function getSignData(Base $request)
     {
         $data = $this->recursiveArrayObjectUtil->getArrayFromObject($request);
         $data = $this->signUtil->generateSignedParams($data, $this->merchantSecret);
