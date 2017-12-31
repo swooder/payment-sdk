@@ -5,6 +5,7 @@ namespace Woodfish\Component\Payment\Sdk\PayClient;
 
 use Unirest\Request;
 
+
 /**
  * Created by PhpStorm.
  * User: shaojie
@@ -120,7 +121,7 @@ class PayClient
         return false;
     }
 
-    public function prePay(Request $request) {
+    public function prePay(PayRequest $request) {
 
         $payResponse = new PayResponse();
         return $this->handle($request, $payResponse);
