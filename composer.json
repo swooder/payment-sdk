@@ -13,7 +13,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Woodfish\\Component\\Payment\\Sdk\\": "src"
+            "Woodfish\\Component\\Payment\\Sdk\\PayClient\\": "src"
         }
     }
 }
